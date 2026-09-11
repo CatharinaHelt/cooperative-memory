@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Experimental results for cooperative environmental memory.">
+  <meta name="theme-color" content="#08111f">
+  <title>Results · Cooperative Memory</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Cooperative Environmental Memory home">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>Cooperative Memory</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="index.html#system">System</a>
+        <a href="index.html#experiments">Experiments</a>
+        <a class="active" href="results.html">Results</a>
+        <a href="index.html#citation">Citation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero-inner">
+        <a class="back-link" href="index.html">← Back to overview</a>
+        <p class="eyebrow"><span class="status-dot"></span> Results · template</p>
+        <h1>Experimental results</h1>
+        <p>These panels are ready for the final figures. Replace each placeholder with the exported result once the experiments are complete.</p>
+      </div>
+    </section>
+
+    <section class="section results-section">
+      <div class="container">
+        <div class="results-toolbar">
+          <div><p class="section-kicker">Controlled evaluation</p><h2>Memory construction and revision</h2></div>
+          <span class="template-badge">PLACEHOLDER DATA</span>
+        </div>
+
+        <div class="result-grid">
+          <article class="result-panel result-panel-wide">
+            <div class="panel-heading"><div><span class="panel-number">01</span><h3>Accuracy under observation errors</h3></div><span class="panel-unit">Macro-F1</span></div>
+            <div class="chart-placeholder chart-lines" role="img" aria-label="Placeholder line chart for accuracy under observation errors"><span class="chart-axis axis-y"></span><span class="chart-axis axis-x"></span><span class="chart-line blue"></span><span class="chart-line orange"></span><span class="chart-line green"></span><span class="chart-placeholder-label">Add accuracy_under_observation_errors.png</span></div>
+            <p class="panel-caption">Compare current perception, last observation, and STM–LTM over increasing observation-error probability.</p>
+          </article>
+
+          <article class="result-panel">
+            <div class="panel-heading"><div><span class="panel-number">02</span><h3>Knowledge beyond sensor range</h3></div><span class="panel-unit">Availability</span></div>
+            <div class="chart-placeholder chart-bars" role="img" aria-label="Placeholder bar chart for knowledge availability"><span class="bar bar-a"></span><span class="bar bar-b"></span><span class="bar bar-c"></span><span class="chart-placeholder-label">Add knowledge_beyond_sensor_range.png</span></div>
+            <p class="panel-caption">Show whether shared memory remains available before the receiving robot observes the area.</p>
+          </article>
+
+          <article class="result-panel">
+            <div class="panel-heading"><div><span class="panel-number">03</span><h3>Temporal stability</h3></div><span class="panel-unit">Transitions</span></div>
+            <div class="chart-placeholder chart-stability" role="img" aria-label="Placeholder chart for temporal stability"><span class="stability-dot dot-one"></span><span class="stability-dot dot-two"></span><span class="stability-dot dot-three"></span><span class="stability-line"></span><span class="chart-placeholder-label">Add temporal_stability.png</span></div>
+            <p class="panel-caption">Report false overwrites and undesirable memory changes while the ground truth remains unchanged.</p>
+          </article>
+        </div>
+
+        <div class="metric-table-wrap">
+          <div class="panel-heading table-heading"><div><span class="panel-number">04</span><h3>Headline metrics</h3></div><span class="panel-unit">Mean ± 95% CI</span></div>
+          <table class="metric-table">
+            <thead><tr><th>Metric</th><th>Perception only</th><th>Last observation</th><th>STM–LTM</th><th>Revision</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Macro-F1</th><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+              <tr><th scope="row">Availability</th><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+              <tr><th scope="row">False overwrite rate</th><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+              <tr><th scope="row">Adaptation delay</th><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="results-note"><span class="note-icon" aria-hidden="true">i</span><p><strong>Reporting note.</strong> Add the number of independent runs, confidence intervals, and the exact scenario parameters beside each figure. Do not report individual time steps as independent samples.</p></div>
+      </div>
+    </section>
+
+    <section class="section results-next">
+      <div class="container next-grid">
+        <div><p class="section-kicker">Coming next</p><h2>Physical-robot feasibility</h2><p>Reserve this space for a short video, a photo of the platforms, and a concise description of the real-world setup.</p></div>
+        <div class="photo-placeholder" role="img" aria-label="Placeholder for a photograph of the physical robots"><span>ADD<br>ROBOT PHOTO</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap"><div><strong>Cooperative Memory</strong><span> · Supplementary material</span></div><div class="footer-links"><a href="index.html">Overview</a><a href="https://github.com/CatharinaHelt/cooperative-memory">Source code</a></div></div>
+  </footer>
+</body>
+</html>
