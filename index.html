@@ -438,32 +438,7 @@
             — and what may have changed.
           </p>
 
-          <div class="focus-list">
-            <div class="focus-item">
-              <span>01</span>
-              <div>
-                <h3>Cooperative memory</h3>
-                <p>Sharing environmental knowledge between robots when local perception is incomplete.</p>
-              </div>
-            </div>
-
-            <div class="focus-item">
-              <span>02</span>
-              <div>
-                <h3>Adaptive autonomy</h3>
-                <p>Combining confidence, context, and accumulated evidence for dependable autonomy.</p>
-              </div>
-            </div>
-
-            <div class="focus-item">
-              <span>03</span>
-              <div>
-                <h3>Off-road robotics</h3>
-                <p>Evaluating perception and decision support in changing, unstructured environments.</p>
-              </div>
-            </div>
-          </div>
-
+         
           <div class="author-links">
             <a class="button button-primary" href="https://github.com/CatharinaHelt">
               GitHub <span aria-hidden="true">↗</span>
@@ -489,40 +464,8 @@
     </section>
 
          
-
     
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-wrap">
-      <div>
-        <strong>Cooperative Memory</strong>
-        <span> · Adaptive Autonomy &amp; Off-Road Robotics Lab</span>
-      </div>
-
-      <div class="footer-links">
-        <a href="#top">Top</a>
-        <a href="#results">Results</a>
-        <a href="#author">Author</a>
-        <a href="https://github.com/CatharinaHelt/cooperative-memory">Source code</a>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    function copyCitation() {
-      const text = document.getElementById('citation-text').innerText;
-      const feedback = document.getElementById('copy-feedback');
-
-      navigator.clipboard.writeText(text).then(() => {
-        feedback.textContent = 'Copied';
-        setTimeout(() => feedback.textContent = '', 1800);
-      }).catch(() => {
-        feedback.textContent = 'Select and copy the BibTeX entry';
-      });
-    }
-  </script>
-</body>
-</html>
